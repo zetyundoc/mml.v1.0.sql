@@ -22,9 +22,9 @@ index [+|-]&lt;index-name&gt; {, [+|-]&lt;index-name&gt;}
 
 参数可以支持多个索引参数，多个索引采用“，”分隔，索引名称支持通配符，可以通过（＋），（－）号来增加或排除索引。
 
-index pms_tsr,pms_ccd | sort timestamp
+* index pms_tsr,pms_ccd | sort timestamp
 
-index pms_* | sort timestamp
+* index pms_* | sort timestamp
 
-index pms_*,-pms_tsr | sort timestamp
+* index pms_*,-pms_tsr | sort timestamp
 
