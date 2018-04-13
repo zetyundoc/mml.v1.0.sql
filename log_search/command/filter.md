@@ -22,11 +22,12 @@ filter &lt;bool-expr&gt;
 
 * 语法：
 
+   ```
     &lt;bool-expr&gt;::=  &lt;field&gt;&gt;|&lt;|==|!=|&lt;&gt;|in &lt;expression&gt; 
 			|(&lt;bool-expr&gt;)
 			| NOT &lt;bool-expr&gt;
 			| &lt;bool-expr&gt; AND|OR &lt;bool-expr&gt;
-
+   ```
 				
 **示例**
 
