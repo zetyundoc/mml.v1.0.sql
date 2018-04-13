@@ -14,9 +14,9 @@ index [+|-]&lt;index-name&gt; {, [+|-]&lt;index-name&gt;}
 
 &lt;index-name&gt;
 
-描述：索引名称，可以带通配符（＊） 
+&emsp描述：索引名称，可以带通配符（＊） 
 
-语法：&lt;string&gt;
+&emsp语法：&lt;string&gt;
 
 **示例**
 

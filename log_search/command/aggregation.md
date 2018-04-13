@@ -2,15 +2,15 @@
 
 ## Stats
 
-#### 别名
+**别名**
 
 Groupby
 
-#### 描述
+**描述**
 
 对索引进行聚合。
 
-#### 语法
+**语法**
 
 stats &lt;aggr-function&gt;(&lt;field-name&gt;) as &lt;new-field-name&gt;  [by &lt;field-name&gt; {, &lt;field-name&gt;}]
 
@@ -18,21 +18,21 @@ stats &lt;aggr-function&gt;(&lt;field-name&gt;) as &lt;new-field-name&gt;  [by &
 
 &lt;aggr-function&gt;
 
-描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
+&emsp描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
 
 &lt;field-name&gt;
 
-描述：字段名
+&emsp描述：字段名
 
 &lt;new-field-name&gt;
 
-描述：字段名
+&emsp描述：字段名
 
 &lt;bool-expression&gt;
 
-描述：逻辑表达式
+&emsp描述：逻辑表达式
 
-#### 示例
+**示例**
 
 index opm*| stats min(@timestamp) as min_time by ip
 index opm*|stats count(reccode) as count_a by ip |top 2 by count_a
@@ -40,15 +40,15 @@ index opm*|stats count(reccode) as count_a by ip |top 2 by count_a
 
 ##Top
 
-####描述
+**描述**
 
 Top N
 
-####语法
+**语法**
 
 top &lt;top-n&gt; &lt;aggr-function&gt;(&lt;field-name&gt;) as &lt;new-field-name&gt; by &lt;group-field-name&gt;
 
-####示例
+**示例**
 
 index opm*|stats count(reccode) as count_a by ip |top 2 by count_a
 

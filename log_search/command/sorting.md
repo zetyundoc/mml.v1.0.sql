@@ -2,47 +2,42 @@
 
 ##Sort
 
-####别名
+**别名**
 
 Orderby
 
-####描述
+**描述**
 
 根据条件过滤索引内容。
 
-####语法
+**语法**
 
 sort &lt;sort-field&gt; {, &lt;sort-field&gt;}
 
-####参数说明
+**参数说明**
 
 &lt;sort-field &gt;
 
-**描述**：排序字段
+&emsp描述：排序字段
 
-**语法**：
+&emsp语法：（[+|-]&lt;field-name&gt;） | （&lt;field-name&gt; [ desc | asc ]）
 
-（[+|-]&lt;field-name&gt;） | （&lt;field-name&gt; [ desc | asc ]）
 [+|-]
 
+&emsp描述：排序顺序；＋是降序，－是升序，默认为升序。
 
-**描述**：排序顺序 ＋是降序－是升序，默认为升序 
+[ desc | asc ]
 
-［desc | asc ］
-
-**描述**：
-
-排序顺序 desc是降序asc是升序，默认为升序 
+&emsp描述：排序顺序；desc是降序，asc是升序，默认为升序。 
 
 &lt;field-name&gt;
 
-**描述**：字段名
+&emsp描述：字段名
 
-**语法**：&lt;string&gt;
+&emsp语法：&lt;string&gt;
 
 ####示例
 
-index opm_*|sort timestamp  
-index opm_*|sort –status,+timestamp 
-index opm_*|sort status,timestamp desc
+index opm_*|sort –@timestamp 
+index opm_*|sort @timestamp asc
 
