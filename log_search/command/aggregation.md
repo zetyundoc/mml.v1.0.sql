@@ -18,19 +18,19 @@ stats &lt;aggr-function&gt;(&lt;field-name&gt;) as &lt;new-field-name&gt;  [by &
 
 &lt;aggr-function&gt;
 
-&emsp描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
+描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
 
 &lt;field-name&gt;
 
-&emsp描述：字段名
+描述：字段名
 
 &lt;new-field-name&gt;
 
-&emsp描述：字段名
+描述：字段名
 
 &lt;bool-expression&gt;
 
-&emsp描述：逻辑表达式
+描述：逻辑表达式
 
 **示例**
 

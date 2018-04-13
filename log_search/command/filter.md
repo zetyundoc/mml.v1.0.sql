@@ -18,12 +18,12 @@ filter &lt;bool-expr&gt;
 
 &lt;bool-expr&gt;
 
-&emsp描述：逻辑表达式
+描述：逻辑表达式
 
-&emsp语法：&lt;bool-expr&gt;::=  &lt;field&gt;&gt;|&lt;|==|!=|&lt;&gt;|in &lt;expression&gt; 
-&emsp&emsp				|(&lt;bool-expr&gt;)
-&emsp&emsp				| NOT &lt;bool-expr&gt;
-&emsp&emsp				| &lt;bool-expr&gt; AND|OR &lt;bool-expr&gt;
+语法：&lt;bool-expr&gt;::=  &lt;field&gt;&gt;|&lt;|==|!=|&lt;&gt;|in &lt;expression&gt; 
+				|(&lt;bool-expr&gt;)
+				| NOT &lt;bool-expr&gt;
+				| &lt;bool-expr&gt; AND|OR &lt;bool-expr&gt;
 
 				
 **示例**

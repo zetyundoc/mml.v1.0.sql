@@ -18,23 +18,23 @@ sort &lt;sort-field&gt; {, &lt;sort-field&gt;}
 
 &lt;sort-field &gt;
 
-&emsp描述：排序字段
+描述：排序字段
 
-&emsp语法：（[+|-]&lt;field-name&gt;） | （&lt;field-name&gt; [ desc | asc ]）
+语法：（[+|-]&lt;field-name&gt;） | （&lt;field-name&gt; [ desc | asc ]）
 
 [+|-]
 
-&emsp描述：排序顺序；＋是降序，－是升序，默认为升序。
+描述：排序顺序；＋是降序，－是升序，默认为升序。
 
 [ desc | asc ]
 
-&emsp描述：排序顺序；desc是降序，asc是升序，默认为升序。 
+描述：排序顺序；desc是降序，asc是升序，默认为升序。 
 
 &lt;field-name&gt;
 
-&emsp描述：字段名
+描述：字段名
 
-&emsp语法：&lt;string&gt;
+语法：&lt;string&gt;
 
 ####示例
 

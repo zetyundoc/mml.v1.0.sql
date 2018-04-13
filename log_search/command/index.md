@@ -14,9 +14,9 @@ index [+|-]&lt;index-name&gt; {, [+|-]&lt;index-name&gt;}
 
 &lt;index-name&gt;
 
-&nbsp描述：索引名称，可以带通配符（＊） 
+描述：索引名称，可以带通配符（＊） 
 
-&nbsp语法：&lt;string&gt;
+语法：&lt;string&gt;
 
 **示例**
 
