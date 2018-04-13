@@ -16,7 +16,9 @@ eval &lt;eval-field&gt;=&lt;eval-expression&gt; {,&lt;eval-field&gt;=&lt;eval-ex
 
 **描述**：生成的值的目标字段名称。如果字段名称已经存在于您的事件,eval 将覆盖该值。
 
-**语法**：&lt;string&gt;
+**语法**：
+
+&lt;string&gt;
 
 &lt;eval-expression&gt;
 
