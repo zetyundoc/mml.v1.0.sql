@@ -8,4 +8,4 @@
 |[转换](log_search/command/convert.md)|Transform|
 |[过滤](log_search/command/filter.md)|Filter|
 |[排序](log_search/command/sorting.md)|Sort|
-|[聚合](log_search/command/polymerization.md)|Aggregation|
+|[聚合](log_search/command/aggregation.md)|Aggregation|
