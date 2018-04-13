@@ -14,15 +14,15 @@ eval &lt;eval-field&gt;=&lt;eval-expression&gt; {,&lt;eval-field&gt;=&lt;eval-ex
 
 * &lt;eval-field&gt;
 
-   *描述：生成的值的目标字段名称。如果字段名称已经存在于事件中,eval 将覆盖该值。
+   * 描述：生成的值的目标字段名称。如果字段名称已经存在于事件中,eval 将覆盖该值。
 
-   *语法：&lt;string&gt;
+   * 语法：&lt;string&gt;
 
 * &lt;eval-expression&gt;
 
-   *描述：算数表达式
+   * 描述：算数表达式
 
-   *语法：&lt;expression&gt;
+   * 语法：&lt;expression&gt;
 
 **示例**
 
