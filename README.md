@@ -3,7 +3,7 @@
 
 ##日志检索语法参考
 
-DataCanvas MML智能运维平台的日志检索语句为SPL命令。
+DataCanvas MML智能运维平台（以下简称MML）的日志检索语句为SPL Search processing language）命令。
 
 
 [1.BNF范式](log_search/BNF.md)
