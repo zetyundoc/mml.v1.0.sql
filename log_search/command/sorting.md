@@ -17,8 +17,10 @@ sort &lt;sort-field&gt; {, &lt;sort-field&gt;}
 &lt;field-name&gt;
 **描述**：字段名
 **语法**：&lt;string&gt;
+
 ####示例
-index opm_*｜sort timestamp  
-index opm_*｜sort –status,+timestamp 
-index opm_*｜sort status,timestamp desc
+
+index opm_*&#124sort timestamp  
+index opm_*&#124sort –status,+timestamp 
+index opm_*&#124sort status,timestamp desc
 
