@@ -16,21 +16,21 @@ stats &lt;aggr-function&gt;(&lt;field-name&gt;) as &lt;new-field-name&gt;  [by &
 
 #### 参数说明
 
-&lt;aggr-function&gt;
+* &lt;aggr-function&gt;
 
-描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
+   描述：聚合函数支持列表，参考[聚合函数列表。](log_search/appendix/aggregation_list.md)
 
-&lt;field-name&gt;
+* &lt;field-name&gt;
 
-描述：字段名
+   描述：字段名
 
-&lt;new-field-name&gt;
+* &lt;new-field-name&gt;
 
-描述：字段名
+   描述：字段名
 
-&lt;bool-expression&gt;
+* &lt;bool-expression&gt;
 
-描述：逻辑表达式
+   描述：逻辑表达式
 
 **示例**
 
