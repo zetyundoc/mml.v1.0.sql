@@ -42,7 +42,7 @@ index opm*|stats count(reccode) as count_a by ip |top 2 by count_a
 
 **描述**
 
-Top N，排名前N调记录。
+Top N，筛选排名前N的信息。
 
 **语法**
 
