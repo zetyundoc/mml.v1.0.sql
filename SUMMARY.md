@@ -1,6 +1,6 @@
 # Summary
 
-* [日志检索语法参考](README.md)
+* [DataCanvas MML语法参考](README.md)
   * [BNF范式](log_search/BNF.md)
   * [命令列表](log_search/command.md)
     * [索引](log_search/command/index.md)
@@ -10,3 +10,4 @@
     * [聚合](log_search/command/aggregation.md)
   * [聚合函数列表](log_search/appendix/aggregation_list.md)
   * [日志检索语句示例](log_search/appendix/example.md)
+
